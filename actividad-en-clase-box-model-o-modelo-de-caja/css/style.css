@@ -1,0 +1,27 @@
+section{
+    background-color: yellow;
+    width: 50%; /*esto hace TODO al 50%*/
+    height: 150px; /*esto esta haciendo una caja*/
+    color: #000000; /*color de la letra*/
+    font-size: 15px;
+    border: 10px dotted black;
+    margin: auto;
+    display: inline-block; /*para que el bloque quede al costado*/
+        
+}
+
+section > p {
+    margin: 10px 50px 30px 30px;/*le quito el margen*/
+    border: 1px solid blue;
+    padding: 20px 10px 5px 8px;
+}
+
+#overflow {
+    background-color: blue;
+    color: coral;
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    overflow: scroll;
+}

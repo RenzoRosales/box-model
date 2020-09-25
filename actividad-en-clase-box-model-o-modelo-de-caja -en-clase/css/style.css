@@ -1,0 +1,12 @@
+section{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+.caja{
+    clear: both;
+}
